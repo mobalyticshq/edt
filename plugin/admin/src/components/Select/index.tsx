@@ -8,7 +8,7 @@ import React, {useEffect, useState} from "react"
 import {Combobox, ComboboxOption} from '@strapi/design-system';
 import {MessageDescriptor} from 'react-intl';
 import {getFetchClient} from '@strapi/helper-plugin';
-import pluginId from '../../../../common/pluginId';
+import {pluginId} from '../../../../common/pluginId';
 import StaticDataType from "../../../../common/data";
 
 interface StaticDataSelectProps {

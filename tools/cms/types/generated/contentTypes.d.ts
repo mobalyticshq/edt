@@ -374,9 +374,9 @@ export interface ApiGuideGuide extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    Class: Attribute.String & Attribute.CustomField<'plugin::geck.classes'>;
+    Class: Attribute.String & Attribute.CustomField<'plugin::edt.classes'>;
     Name: Attribute.String;
-    Skill: Attribute.String & Attribute.CustomField<'plugin::geck.skills'>;
+    Skill: Attribute.String & Attribute.CustomField<'plugin::edt.skills'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

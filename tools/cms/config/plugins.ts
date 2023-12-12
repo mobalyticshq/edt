@@ -1,5 +1,5 @@
 export default {
-  'geck': {
+  'edt': {
     config: {
       url: "http://localhost:8080/admin/descriptions",
       types: [

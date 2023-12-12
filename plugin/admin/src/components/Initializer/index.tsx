@@ -5,7 +5,7 @@
  */
 
 import { useEffect, useRef } from 'react';
-import pluginId from '../../../../common/pluginId';
+import {pluginId} from '../../../../common/pluginId';
 
 type InitializerProps = {
   setPlugin: (id: string) => void;

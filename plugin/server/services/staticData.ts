@@ -1,6 +1,6 @@
 import {Strapi} from '@strapi/strapi';
 import StaticDataType from '../../common/data'
-import pluginId from '../../common/pluginId';
+import {pluginId} from '../../common/pluginId';
 import axios from "axios";
 import {pathJoin} from "../../common/url";
 

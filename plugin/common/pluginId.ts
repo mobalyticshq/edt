@@ -1,5 +1,5 @@
 import pluginPkg from '../package.json';
 
-const pluginId = pluginPkg.name.replace(/^(@[^-,.][\w,-]+\/|strapi-)plugin-/i, '');
-
-export default pluginId;
+export const pluginId = pluginPkg.strapi.name.replace(/^(@[^-,.][\w,-]+\/|strapi-)plugin-/i, '');
+console.log(pluginId)
+export const pluginName = pluginPkg.strapi.name;

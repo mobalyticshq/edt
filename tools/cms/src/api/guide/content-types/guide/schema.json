@@ -14,14 +14,14 @@
   "attributes": {
     "Class": {
       "type": "customField",
-      "customField": "plugin::geck.classes"
+      "customField": "plugin::edt.classes"
     },
     "Name": {
       "type": "string"
     },
     "Skill": {
       "type": "customField",
-      "customField": "plugin::geck.skills"
+      "customField": "plugin::edt.skills"
     }
   }
 }

@@ -1,10 +1,11 @@
 {
-  "name": "geck",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "name": "external-data-types",
+  "version": "0.1.0",
+  "description": "External Data Types plugin for strapi",
   "strapi": {
-    "name": "geck",
-    "description": "Description of geck plugin",
+    "name": "edt",
+    "displayName": "External Data Types",
+    "description": "This plugin allows to connect custom types from an external API.",
     "kind": "plugin"
   },
   "dependencies": {

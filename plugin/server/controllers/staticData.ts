@@ -1,5 +1,5 @@
 import {Strapi} from '@strapi/strapi';
-import pluginId from '../../common/pluginId';
+import {pluginId} from '../../common/pluginId';
 
 export default ({strapi}: { strapi: Strapi }) => ({
   async options(ctx) {
