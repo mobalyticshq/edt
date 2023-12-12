@@ -1,15 +1,15 @@
 
 .PHONY: server
 server:
-	@cd tools/server && npm run start
+	@cd examples/server && npm run start
 
 .PHONY: cms
 cms:
-	@cd tools/cms && npm run develop
+	@cd examples/cms && npm run develop
 
 .PHONY: plugin
 plugin:
-	@cd plugin && npm run develop --watch-admin
+	@cd examples && npm run develop --watch-admin
 
 .PHONY: develop
 develop:

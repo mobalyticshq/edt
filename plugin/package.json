@@ -8,6 +8,10 @@
     "description": "This plugin allows to connect custom types from an external API.",
     "kind": "plugin"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobalyticshq/edt.git"
+  },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
