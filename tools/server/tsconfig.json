@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+
+  "exclude": [
+    "node_modules/",
+    "dist/",
+    // Do not include test files
+    "**/*.test.ts"
+  ]
+}

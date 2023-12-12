@@ -1,0 +1,36 @@
+[
+  {
+    "type": "skills",
+    "items": [
+      {
+        "label": "Fireball",
+        "id": "fireball"
+      },
+      {
+        "label": "Blood nova",
+        "id": "blood_nova"
+      }
+    ]
+  },
+  {
+    "type": "classes",
+    "items": [
+      {
+        "label": "Barbarian",
+        "id": "barbarian"
+      },
+      {
+        "label": "Sorcerer",
+        "id": "sorcerer"
+      },
+      {
+        "label": "Druid",
+        "id": "druid"
+      },
+      {
+        "label": "Necromancer",
+        "id": "necromancer"
+      }
+    ]
+  }
+]
