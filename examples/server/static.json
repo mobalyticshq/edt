@@ -1,36 +1,41 @@
 [
   {
     "type": "skills",
-    "items": [
+    "descriptions": [
       {
-        "label": "Fireball",
-        "id": "fireball"
+        "name": "Fireball",
+        "slug": "fireball"
       },
       {
-        "label": "Blood nova",
-        "id": "blood_nova"
+        "name": "Blood nova",
+        "slug": "blood_nova"
       }
     ]
   },
   {
     "type": "classes",
-    "items": [
+    "descriptions": [
       {
-        "label": "Barbarian",
-        "id": "barbarian"
+        "name": "Barbarian",
+        "slug": "barbarian"
       },
       {
-        "label": "Sorcerer",
-        "id": "sorcerer"
+        "name": "Druid",
+        "slug": "druid"
       },
       {
-        "label": "Druid",
-        "id": "druid"
+        "name": "Necromancer",
+        "slug": "necromancer"
       },
       {
-        "label": "Necromancer",
-        "id": "necromancer"
+        "name": "Rogue",
+        "slug": "rogue"
+      },
+      {
+        "name": "Sorcerer",
+        "slug": "sorcerer"
       }
-    ]
+    ],
+    "version": "v0.1.0"
   }
 ]

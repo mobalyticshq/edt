@@ -12,7 +12,7 @@ router.get("/admin/descriptions/:name", async (req: Request, res: Response) => {
   const typeName = req.params.name
   data.forEach((element) => {
     if (element.type === typeName) {
-      return res.status(200).json(element.items)
+      return res.status(200).json(element)
     }
   })
 

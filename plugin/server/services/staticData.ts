@@ -1,5 +1,5 @@
 import {Strapi} from '@strapi/strapi';
-import StaticDataType from '../../common/data'
+import {StaticDataType, StaticDataContainer} from '../../common/data'
 import {pluginId} from '../../common/pluginId';
 import axios from "axios";
 import {pathJoin} from "../../common/url";
@@ -15,7 +15,9 @@ export default ({strapi}: { strapi: Strapi }) => ({
     try {
       const resp = await axios.get(url)
 
-      let options = resp.data
+      const data: StaticDataContainer = resp.data
+
+      let options = data.descriptions
 
       options.sort(sortOptionsByName);
 
@@ -31,4 +33,4 @@ export default ({strapi}: { strapi: Strapi }) => ({
   }
 });
 
-const sortOptionsByName = (a: StaticDataType, b: StaticDataType) => a.label.localeCompare(b.label)
+const sortOptionsByName = (a: StaticDataType, b: StaticDataType) => a.name.localeCompare(b.name)

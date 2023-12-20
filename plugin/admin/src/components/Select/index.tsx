@@ -9,7 +9,7 @@ import {Combobox, ComboboxOption} from '@strapi/design-system';
 import {MessageDescriptor} from 'react-intl';
 import {getFetchClient} from '@strapi/helper-plugin';
 import {pluginId} from '../../../../common/pluginId';
-import StaticDataType from "../../../../common/data";
+import {StaticDataType} from "../../../../common/data";
 
 interface StaticDataSelectProps {
   intlLabel: MessageDescriptor;
@@ -63,7 +63,7 @@ const Input = React.forwardRef((props: StaticDataSelectProps, ref) => {
         value={props.value}
       >
         {staticDataTypeOptions.map((option: StaticDataType) => <ComboboxOption
-          value={option.id}>{option.label}</ComboboxOption>)}
+          value={option.slug}>{option.name}</ComboboxOption>)}
       </Combobox>
     </label>
   );
